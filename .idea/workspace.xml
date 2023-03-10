@@ -18,14 +18,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mini-board" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -35,6 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,6 +71,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Mo4zMiAX6gR2SzDanabXwg5LWy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -84,7 +88,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/minsu/Documents/project/mini-board-project",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/mini-board-project/src/main/java/com/neurotoxin/miniboard/domain/user/api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +97,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\mini-board-project\src\main\java\com\neurotoxin\miniboard\domain\user\api" />
+      <recent name="C:\Users\Admin\Desktop\mini-board-project\src\main\java\com\neurotoxin\miniboard\domain\comment\api" />
+      <recent name="C:\Users\Admin\Desktop\mini-board-project\src\main\java\com\neurotoxin\miniboard\domain\user" />
+      <recent name="C:\Users\Admin\Desktop\mini-board-project\src\main\java\com\neurotoxin\miniboard\domain\comment" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MiniBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mini-board.main" />
