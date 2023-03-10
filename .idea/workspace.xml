@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51254b61-b857-460b-9a3e-40de57c52451" name="변경" comment="" />
+    <list default="true" id="51254b61-b857-460b-9a3e-40de57c52451" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/RootController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/global/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/article/api/GetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/article/api/GetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/comment/api/GetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/comment/api/GetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/user/api/GetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/user/api/GetController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +96,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Admin/Desktop/mini-board-project/src/main/java/com/neurotoxin/miniboard/domain/user/api",
     "node.js.detected.package.eslint": "true",
