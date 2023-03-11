@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51254b61-b857-460b-9a3e-40de57c52451" name="변경" comment="도메인형 디렉토리 구조">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/api/JwtAuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/dto/JwtRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/repo/JwtUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/service/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/token/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/token/JwtRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/token/JwtTokenUtil.java" afterDir="false" />
+    <list default="true" id="51254b61-b857-460b-9a3e-40de57c52451" name="변경" comment="API Test&#10;&#10;API Test를 위한 controller 이름 변경">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/GetController.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/article/api/ArticleGetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/article/api/ArticleGetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/comment/api/CommentGetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/comment/api/CommentGetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/user/api/UserGetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/user/api/UserGetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/api/RootViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/neurotoxin/miniboard/domain/web/api/RootViewController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +55,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
       <RecentBranches>
@@ -74,6 +83,14 @@
           </list>
         </option>
       </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fc5e49e1-4fac-47b1-b4f2-ad5aa8ac6ef5" />
+        <option name="url" value="https://github.com/Sonny-in-1999/mini-board-project.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -115,7 +132,20 @@
       <recent name="C:\Users\Admin\Desktop\mini-board-project\src\main\java\com\neurotoxin\miniboard\domain\comment" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MiniBoardApplication">
+    <configuration name="MiniBoardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neurotoxin.miniboard.MiniBoardApplication" />
+      <module name="mini-board.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neurotoxin.miniboard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MiniBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mini-board.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.neurotoxin.miniboard.MiniBoardApplication" />
@@ -123,6 +153,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MiniBoardApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -137,9 +172,21 @@
       <workItem from="1678421254152" duration="39000" />
       <workItem from="1678421320682" duration="1361000" />
     </task>
+    <task id="LOCAL-00001" summary="도메인형 디렉토리 구조&#10;&#10;Jwt 관련 디렉토리 및 클래스 생성">
+      <created>1678452199934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678452199934</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="도메인형 디렉토리 구조&#10;&#10;Jwt 관련 디렉토리 및 클래스 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="도메인형 디렉토리 구조&#10;&#10;Jwt 관련 디렉토리 및 클래스 생성" />
   </component>
 </project>

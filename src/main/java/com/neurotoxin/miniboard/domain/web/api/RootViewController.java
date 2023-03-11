@@ -5,9 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
 
-public class RootController {
+public class RootViewController {
 
     @RequestMapping(method = RequestMethod.GET, path = "login")
     public String Login() {

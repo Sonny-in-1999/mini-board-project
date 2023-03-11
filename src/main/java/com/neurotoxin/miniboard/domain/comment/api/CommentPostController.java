@@ -1,4 +1,4 @@
 package com.neurotoxin.miniboard.domain.comment.api;
 
-public class PatchController {
+public class CommentPostController {
 }

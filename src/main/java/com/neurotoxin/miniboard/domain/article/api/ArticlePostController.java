@@ -1,4 +1,4 @@
 package com.neurotoxin.miniboard.domain.article.api;
 
-public class DeleteController {
+public class ArticlePostController {
 }

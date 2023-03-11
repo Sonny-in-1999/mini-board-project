@@ -1,4 +1,4 @@
 package com.neurotoxin.miniboard.domain.user.api;
 
-public class PostController {
+public class UserPatchController {
 }
