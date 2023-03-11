@@ -1,4 +1,4 @@
-package com.neurotoxin.miniboard.web.apicontroller;
+package com.neurotoxin.miniboard.domain.article.api;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
