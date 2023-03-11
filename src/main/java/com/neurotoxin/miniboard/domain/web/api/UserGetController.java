@@ -3,14 +3,27 @@ package com.neurotoxin.miniboard.domain.web.api;
 import com.neurotoxin.miniboard.domain.web.entity.Member;
 import com.neurotoxin.miniboard.domain.web.service.MemberServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
-public class RootViewController {
+import javax.servlet.http.HttpSession;
+import java.util.List;
+
+public class UserGetController {
     @Autowired
     private MemberServiceImpl service;
+    //고객 관리 목록 화면
+    @RequestMapping("/list.cu")
+    public String list(HttpSession session, Model model) {
+        //서블릿에서는 request에서 getsession으로 세션을 가져왔다면,
+        //스프링에서는 바로 세션에 접근할 수 있게 HttpSession을 지원한다.
+
+        //category 어트리뷰트의 값에 따라 active 속성을 결정한다.
+        session.setAttribute("category", "cu");		//카테고리 어트리뷰트에 cu를 설정
+        List<Member> list = service.member_list();
+        model.addAttribute("list", list);
+        return "customer/list";
+    }
     //고객 상세 화면 요청
     @RequestMapping("/detail.cu")
     public String detail(int id, Model model) {
@@ -22,5 +35,6 @@ public class RootViewController {
         model.addAttribute("member", member);
         return "customer/detail";
     }
+
 
 }
